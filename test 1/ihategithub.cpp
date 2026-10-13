@@ -1,6 +1,5 @@
 
 //1 уравнение (у меня ошибка при вводе (cin))
-
 #include <iostream>
 #include <iomanip>
 #include <cmath>
@@ -10,8 +9,8 @@ int main() {
 	std::cout << "y = " << std::setprecision(5) << y << std::endl;
 	return 0;
 }
-
 /*
+
 2 уравнение
 #include <iostream>
 #include <iomanip>
@@ -59,4 +58,17 @@ int main() {
 	return 0;
 }
 
-*/
+
+
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+int main() {
+	int x = 1;
+	int y = 1;
+	//double c = ((x + y) / (x + 1.0)) - ((x * y - 12.0) / (34.0 + x));
+	double c = ((x + y) / (x + 1)) - ((x * y - 12) / (34 + x));
+	std::cout << "c = " << std::setprecision(5) << c << std::endl;
+	return 0;
+}*/
+
