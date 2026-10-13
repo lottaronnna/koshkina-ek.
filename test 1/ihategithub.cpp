@@ -1,4 +1,4 @@
-
+/*
 //1 уравнение (у меня ошибка при вводе (cin))
 #include <iostream>
 #include <iomanip>
@@ -9,7 +9,6 @@ int main() {
 	std::cout << "y = " << std::setprecision(5) << y << std::endl;
 	return 0;
 }
-/*
 
 2 уравнение
 #include <iostream>
@@ -59,16 +58,38 @@ int main() {
 }
 
 
+6 уравнение 
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+int main() {
+	double x = 8.0;
+	double y = 9.0;
+	double c = ((x + y) / (x + 1.0)) - ((x * y - 12.0) / (34.0 + x));
+	std::cout << "c = " << std::fixed << std::setprecision(5) << c << std::endl;
+	return 0;
+}
+
+7 уравнение
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+int main() {
+	int x = 8;
+	int y = 9;
+	double c = ((std::sin(x) + std::cos(y)) / (std::cos(x) - std::sin(y))) * std::tan(x * y);
+	std::cout << "c = " << std::fixed << std::setprecision(5) << c << std::endl;
+	return 0;
+}
+*/
 
 #include <iostream>
 #include <iomanip>
 #include <cmath>
 int main() {
-	int x = 1;
-	int y = 1;
-	//double c = ((x + y) / (x + 1.0)) - ((x * y - 12.0) / (34.0 + x));
-	double c = ((x + y) / (x + 1)) - ((x * y - 12) / (34 + x));
-	std::cout << "c = " << std::setprecision(5) << c << std::endl;
+	int x = 8;
+	int y = 9;
+	double c = ((std::sin(x) + std::cos(y)) / (std::cos(x) - std::sin(y))) * std::tan(x * y);
+	std::cout << "c = " << std::fixed << std::setprecision(5) << c << std::endl;
 	return 0;
-}*/
-
+}

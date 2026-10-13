@@ -1,4 +1,4 @@
-﻿//1 уравнение (у меня ошибка при вводе (cin))
+﻿/*1 уравнение (у меня ошибка при вводе (cin))
 
 #include <iostream>
 #include <iomanip>
@@ -57,5 +57,4 @@ int main() {
 	std::cout << "y = " << std::setprecision(5) << y << std::endl;
 	return 0;
 }
-
-////////
+*/

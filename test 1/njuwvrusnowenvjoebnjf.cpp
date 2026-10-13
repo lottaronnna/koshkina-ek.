@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <iomanip>
 #include <cmath>
 
@@ -11,4 +11,4 @@ int main() {
     std::cout << "c = " << std::fixed << std::setprecision(5) << c << std::endl;
 
     return 0;
-}
+}*/
