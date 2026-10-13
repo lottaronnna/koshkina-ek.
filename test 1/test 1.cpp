@@ -1,20 +1,61 @@
-﻿// test 1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
+﻿//1 уравнение (у меня ошибка при вводе (cin))
 
 #include <iostream>
-
-int main()
-{
-    std::cout << "Hello World!\n";
+#include <iomanip>
+#include <cmath>
+int main() {
+	int x = 1;
+	double y = 10 * std::sin(x) + std::abs(std::pow(x, 4) + std::pow(x, 5));
+	std::cout << "y = " << std::setprecision(5) << y << std::endl;
+	return 0;
 }
 
-// Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
-// Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
 
-// Советы по началу работы 
-//   1. В окне обозревателя решений можно добавлять файлы и управлять ими.
-//   2. В окне Team Explorer можно подключиться к системе управления версиями.
-//   3. В окне "Выходные данные" можно просматривать выходные данные сборки и другие сообщения.
-//   4. В окне "Список ошибок" можно просматривать ошибки.
-//   5. Последовательно выберите пункты меню "Проект" > "Добавить новый элемент", чтобы создать файлы кода, или "Проект" > "Добавить существующий элемент", чтобы добавить в проект существующие файлы кода.
-//   6. Чтобы снова открыть этот проект позже, выберите пункты меню "Файл" > "Открыть" > "Проект" и выберите SLN-файл.
+ //2 уравнение
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <numbers>
+int main() {
+	int x = 1;
+	int y = 1;
+	double c = std::pow(std::numbers::e, -x) - std::cos(x) + std::sin(2 * x * y);
+	std::cout << "c = " << std::setprecision(5) << c << std::endl;
+	return 0;
+}
+
+//3 уравнение 
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+int main() {
+	int x = 1;
+	double y = std::sqrt(std::pow(x, 4) + std::sqrt(std::abs(x + 1)));
+	std::cout << "y = " << std::setprecision(5) << y << std::endl;
+	return 0;
+}
+
+//4 уравнение
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+int main() {
+	int x = 1;
+	int y = 1;
+	double c = ((std::sin(x) + std::cos(y)) / std::tan(x)) + 0.43;
+	std::cout << "c = " << std::setprecision(5) << c << std::endl;
+	return 0;
+}
+
+//5 уравнение 
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+int main() {
+	int x = 1;
+	double y = (0.125 * x + std::abs(std::sin(x))) / (1.5 * std::pow(x, 2) + std::cos(x));
+	std::cout << "y = " << std::setprecision(5) << y << std::endl;
+	return 0;
+}
+
+////////
