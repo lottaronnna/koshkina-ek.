@@ -139,6 +139,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="homework1.cpp" />
     <ClCompile Include="ihategithub.cpp" />
     <ClCompile Include="njuwvrusnowenvjoebnjf.cpp" />
     <ClCompile Include="test 1.cpp" />

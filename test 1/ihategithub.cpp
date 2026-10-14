@@ -81,7 +81,7 @@ int main() {
 	std::cout << "c = " << std::fixed << std::setprecision(5) << c << std::endl;
 	return 0;
 }
-*/
+
 
 #include <iostream>
 #include <iomanip>
@@ -93,3 +93,4 @@ int main() {
 	std::cout << "c = " << std::fixed << std::setprecision(5) << c << std::endl;
 	return 0;
 }
+*/
