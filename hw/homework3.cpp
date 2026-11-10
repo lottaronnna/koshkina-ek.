@@ -1,9 +1,11 @@
 ﻿/*#include <iostream>
 #include <cmath>
 int main() {
+
 	int x, y;
 	std::cin >> x;
 	std::cin >> y;
+
 	if ((x * y) / 2 <= 2450 && y <= 70 && x <= 70 && x > y) { 
 		std::cout << "Да" << std::endl;
 	}
