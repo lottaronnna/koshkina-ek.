@@ -4,7 +4,7 @@
 #include <iomanip>
 #include <cmath>
 int main() {
-	int с;
+	int num;
 	std::cin >> num;
 	double result = 1.00 + (num / 3.00) + std::abs(num) + ((std::pow(num, 3.00) + 4.00) / 2.00);
 	std::cout << "result = " << std::setprecision(5) << result << std::endl;

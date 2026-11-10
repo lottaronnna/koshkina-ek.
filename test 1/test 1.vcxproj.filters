@@ -21,8 +21,8 @@
     <ClCompile Include="ihategithub.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="njuwvrusnowenvjoebnjf.cpp">
-      <Filter>Файлы ресурсов</Filter>
+    <ClCompile Include="homework1.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
